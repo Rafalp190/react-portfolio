@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|VT323');
+
+$press-stack: 'Press Start 2P', serif;
+$v2-stack:    'VT323', sans-serif;
+
+.app{
+  position: relative;
+  background: url(http://pixelartmaker.com/art/becdd8955dc57eb.png) repeat;
+  padding-top: 50px;
+  padding-bottom: 10px;
+
+
+  .app.h1{
+    font: 60px $press-stack;
+    text-align: center;
+    background: rgb(67, 176, 71);
+    padding: 20px;
+    margin: 0px 20% 0px 20%;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 25px;
+    border-top-color: rgb(20, 119, 23);
+    border-right-color: rgb(40, 150, 43);
+    border-bottom-color: rgb(20, 119, 23);
+    border-left-color: rgb(40, 150, 43);
+  }
+  .app.p{
+    text-align: center;
+
+  }
+
+  .app.subtitle {
+    font: 30px $press-stack;
+    margin-right: 35%;
+    margin-left: 35%;
+    margin-bottom: 2%;
+    padding: 30px;
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+  }
+
+  .app.subtext {
+    font: 30px $v2-stack;
+    margin-right: 30%;
+    margin-left: 30%;
+    padding: 30px;
+    text-align: left;
+    background: white;
+    border-radius: 20px;
+  }
+  
+
+  .block{
+    background-color:  rgb(241, 218, 174);
+    display: flex;
+    justify-content: space-evenly;
+    border: 5px;
+    padding: 15px;
+    margin: 30px;
+    border-radius: 10px;
+
+    .preview {
+      flex-basis: 60%;
+      background-color: white;
+    }
+
+    .preview.wawa {
+      flex-basis: 60%;
+
+    }
+
+
+    .description {
+      flex-basis: 40%;
+      margin: 10px;
+      margin-right: 0px;
+
+      .description.title {
+      font: 40px $press-stack;
+      text-align: center;
+      background-color: rgb(251, 208, 0);
+      padding: 20px 0px 20px 0px;
+      border-radius: 25px;
+      border-style: solid;
+      border-width: 15px;
+      border-top-color: rgb(212, 185, 48);
+      border-right-color: rgb(190, 162, 19);
+      border-bottom-color: rgb(212, 185, 48);
+      border-left-color: rgb(190, 162, 19);
+      }
+      .description.body{
+        font: 38px $v2-stack;
+        text-align: justify;
+        padding: 20px 10px 20px 10px;
+      }
+      }
+  }
+  .ground{
+    padding-bottom: 0%;
+    margin-bottom: -12px;
+  }
+}
